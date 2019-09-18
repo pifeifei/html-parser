@@ -1,0 +1,36 @@
+{
+    "name": "pifeifei/html-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kis龍",
+            "email": "pifeifei1989@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 | ^7.0",
+        "ext-iconv": "*",
+        "guzzlehttp/guzzle": "~6.3.0",
+        "symfony/css-selector": "~3.4.0",
+        "symfony/dom-crawler": "~3.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "symfony/var-dumper": "^4.3"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Pifeifei\\": "src/Pifeifei/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pifeifei\\Test\\": "tests/"
+        }
+    }
+}
