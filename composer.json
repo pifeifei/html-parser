@@ -10,7 +10,7 @@
     "require": {
         "php": "^5.5 | ^7.0",
         "ext-iconv": "*",
-        "guzzlehttp/guzzle": "~6.3.0",
+        "guzzlehttp/guzzle": "^6.3",
         "symfony/css-selector": "~3.4.0",
         "symfony/dom-crawler": "~3.4.0"
     },

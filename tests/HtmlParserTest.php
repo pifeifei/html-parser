@@ -25,7 +25,7 @@ class HtmlParserTest extends BaseTestCase
 
     public function testWeChat()
     {
-        $url = 'https://mp.weixin.qq.com/s?src=11&timestamp=1568793378&ver=1859&signature=65VxI-Vb7lDP6hXThrc7aXRyPQJVFElDYyhDu5GbEa1KcWLdlHAIUGCE5Ss7QZJpP9x9HwOisY3xlCi5HURDoS17mHgTp3Nib722TjS9U3meh0UOdLvp6gKgqfETfIfj&new=1';
+        $url = 'https://mp.weixin.qq.com/s?src=11&timestamp=1594967748&ver=2465&signature=PLg*AcOmvKi1xL49fiyRIvarpznvGX*wEqzeWVpArVqolCZeqquGy8j*UvmdlDriL1Pfq9ABfac-TyVJpNNq6m6ip63GMML*eNPgTwTyMJMfxDXNc3koRxbzOWG2pJ3H&new=1';
 
         $this->htmlParser->get($url);
 
